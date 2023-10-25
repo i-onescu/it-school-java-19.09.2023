@@ -1,0 +1,18 @@
+1. Write a Java program to create a class called Rectangle with private instance variables length and width. Provide public getter and setter methods to access and modify these variables.
+2. Write a Java program to create a class called Circle with a private instance variable radius. Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.
+   // you can use Math.PI for the area and perimeter.
+
+3. Write a Java program to create a class called Animal with a method called makeSound(). Create a subclass called Dog that overrides the makeSound() method to bark.
+   // Animal can print "animal makes sound"
+   // Dog can print "barking..."
+
+4. Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print "Driving a car".
+
+5. Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.
+
+6. Write a Java program to create a vehicle class hierarchy. The base class should be Vehicle, with subclasses Truck, Car and Motorcycle. Each subclass should have properties such as make, model, year, and fuel type. Implement methods for calculating fuel efficiency, distance traveled, and maximum speed.
+
+7. Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title.
+
+8. Design a class hierarchy for geometric shapes. Create a base class Shape with methods to calculate area and perimeter. Then, create subclasses for specific shapes like Circle, Rectangle, and Triangle. Override the area and perimeter calculation methods for each shape.
+
