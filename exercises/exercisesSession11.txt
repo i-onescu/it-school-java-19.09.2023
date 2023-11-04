@@ -1,0 +1,41 @@
+1. Write a Java program to iterate through all elements in a array list.
+2. Write a Java program to insert an element into the array list at the first position.
+3. Write a Java program to sort a given array list.
+4. Write a Java program to copy one array list into another.
+5. Write a Java program of swap two elements in an array list.
+6. Write a Java program to trim the capacity of an array list the current list size.
+7. Write a Java program to empty an array list.
+8. Write a Java program to iterate through all elements in a linked list starting at the specified position.
+9. Write a Java program to iterate a linked list in reverse order.
+10. Write a Java program to insert some elements at the specified position into a linked list.
+11. Write a Java program to get the first and last occurrence of the specified elements in a linked list.
+12. Write a Java program to join two linked lists.
+13. Write a Java program to clone an linked list to another linked list.
+14. Write a Java program to remove and return the first element of a linked list.
+15. Write a Java program to retrieve but does not remove, the first element of a linked list.
+16. Write a Java program to iterate through all elements in a hash list.
+17. Write a Java program to test a hash set is empty or not.
+18. Write a Java program to convert a hash set to an array.
+19. Write a Java program to convert a hash set to a List/ArrayList.
+20. Write a Java program to compare two sets and retain elements which are same on both sets.
+21. Write a Java program to remove all of the elements from a hash set.
+22. Write a Java program to add all the elements of a specified tree set to another tree set.
+23. Write a Java program to create a reverse order view of the elements contained in a given tree set.
+24. Write a Java program to find the numbers less than 7 in a tree set.
+25. Write a Java program to get the element in a tree set which is less than or equal to the given element.
+26. Write a Java program to retrieve and remove the first element of a tree set.
+27. Write a Java program to retrieve and remove the last element of a tree set.
+28. Write a Java program to copy all of the mappings from the specified map to another map.
+29. Write a Java program to check whether a map contains key-value mappings (empty) or not.
+30. Write a Java program to test if a map contains a mapping for the specified key.
+31. Write a Java program to test if a map contains a mapping for the specified value.
+32. Write a Java program to sort keys in Tree Map by using comparator.
+33. Write a Java program to get a key-value mapping associated with the greatest key and the least key in a map.
+34. Write a Java program to get the first (lowest) key and the last (highest) key currently in a map.
+35. Write a Java program to get a reverse order view of the keys contained in a given map.
+36. Write a Java program to get a key-value mapping associated with the greatest key less than or equal to the given key.
+37. Write a Java program to get the portion of a map whose keys are strictly less than a given key.
+38. Write a Java program to get a key-value mapping associated with the greatest key strictly less than the given key. Return null if there is no such key.
+39. Write a Java program to iterate through any kind of map using keySet().
+40. Write a Java program to iterate through any kind of map using entrySet().
+41. Write a Java program to iterate through any kind of map using forEach().

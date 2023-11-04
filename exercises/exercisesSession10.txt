@@ -1,0 +1,20 @@
+// ArrayList
+1. Write a Java program to create a new array list, add some colors (string) and print out the collection.
+2. Write a Java program to insert an element into the array list at the first position.
+3. Write a Java program to retrieve an element (at a specified index) from a given array list.
+4. Write a Java program to update specific array element by given element.
+5. Write a Java program to remove the third element from a array list.
+6. Write a Java program to search an element in a array list.
+
+// LinkedList
+7. Write a Java program to insert the specified element at the front of a linked list.
+8. Write a Java program to insert the specified element at the end of a linked list.
+9. Write a Java program to get the first and last occurrence of the specified elements in a linked list.
+
+// HashSet
+10. Write a Java program to append the specified element to the end of a hash set.
+11. Write a Java program to get the number of elements in a hash set.
+12. Write a Java program to empty a hash set.
+13. Write a Java program to convert a hash set to a List/ArrayList.
+14. Write a Java program to clone a hash set to another hash set.
+
