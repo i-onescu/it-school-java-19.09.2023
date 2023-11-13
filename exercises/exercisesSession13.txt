@@ -1,0 +1,19 @@
+1. Define a generic class called Box that can hold an object of any type. Implement methods to set and get the value inside the box.
+2. Write a Java program to create a generic method that takes two arrays of the same type and checks if they have the same elements in the same order (pass different types).
+3. Write a Java program to create a generic method that takes a list of numbers and returns the sum of all the even and odd numbers.
+4. Write a Java program to create a generic method that takes a list of any type and returns it as a new list with the elements in reverse order.
+5. Write a generic method called printItems that takes a list of any type and prints each item. Use an upper bound to ensure that the list elements implement the CharSequence interface.
+6. Write a method called displayFirstTwo that takes a list of any type and displays the first two elements. Use a wildcard in the method parameter.
+7. Create a generic class called Box that stores an item of any type. Implement methods to put an item into the box and retrieve it.
+
+enums
+1. Create an enum called Weekday representing the days of the week (Monday, Tuesday, ..., Sunday).
+2. Improve the Weekday enum and add a method called isWeekend into it.
+3. Define an enum called Planet representing planets in our solar system. Each planet should have fields for mass and radius. Include a constructor to initialize these values.
+4. Write a method called getDayType that takes a Weekday enum as a parameter and returns a string indicating whether it's a "Weekday" or "Weekend."
+
+solid
+1. Create a Bird class with a method fly(). Extend it to create a Penguin class. Make sure the Penguin class can be substituted for the Bird class without issues.
+2. Design a class hierarchy for shapes (circle, square, rectangle). Ensure that subclasses can be used interchangeably with the base class.
+3. Define an interface for a worker that has methods for both working and eating. Break it into smaller interfaces to follow ISP.
+4. Create an interface for vehicles that includes methods for driving and refueling. Apply ISP to split the interface into more focused interfaces.
