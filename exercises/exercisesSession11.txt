@@ -18,14 +18,14 @@
 18. Write a Java program to convert a hash set to an array.
 19. Write a Java program to convert a hash set to a List/ArrayList.
 20. Write a Java program to compare two sets and retain elements which are same on both sets.
-21. Write a Java program to remove all of the elements from a hash set.
+21. Write a Java program to remove all elements from a hash set.
 22. Write a Java program to add all the elements of a specified tree set to another tree set.
 23. Write a Java program to create a reverse order view of the elements contained in a given tree set.
 24. Write a Java program to find the numbers less than 7 in a tree set.
 25. Write a Java program to get the element in a tree set which is less than or equal to the given element.
 26. Write a Java program to retrieve and remove the first element of a tree set.
 27. Write a Java program to retrieve and remove the last element of a tree set.
-28. Write a Java program to copy all of the mappings from the specified map to another map.
+28. Write a Java program to copy all mappings from the specified map to another map.
 29. Write a Java program to check whether a map contains key-value mappings (empty) or not.
 30. Write a Java program to test if a map contains a mapping for the specified key.
 31. Write a Java program to test if a map contains a mapping for the specified value.
