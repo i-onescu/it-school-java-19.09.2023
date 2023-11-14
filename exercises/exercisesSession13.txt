@@ -6,7 +6,7 @@
 6. Write a method called displayFirstTwo that takes a list of any type and displays the first two elements. Use a wildcard in the method parameter.
 7. Create a generic class called Box that stores an item of any type. Implement methods to put an item into the box and retrieve it.
 
-enums
+ENUMS
 1. Create an enum called Weekday representing the days of the week (Monday, Tuesday, ..., Sunday).
 2. Improve the Weekday enum and add a method called isWeekend into it.
 3. Define an enum called Planet representing planets in our solar system. Each planet should have fields for mass and radius. Include a constructor to initialize these values.
