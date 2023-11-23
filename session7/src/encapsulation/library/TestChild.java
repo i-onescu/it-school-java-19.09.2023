@@ -1,6 +1,7 @@
 package encapsulation.library;
 
-import oopExercises.encapsulation.test.TestParent;
+
+import encapsulation.test.TestParent;
 
 public class TestChild extends TestParent {
 

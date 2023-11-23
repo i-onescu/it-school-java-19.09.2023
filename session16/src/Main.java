@@ -1,3 +1,5 @@
+package session16.src;
+
 public class Main {
     public static void main(String[] args) {
         Book book = new Book("author1", "name1");

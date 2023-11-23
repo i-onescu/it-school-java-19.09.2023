@@ -1,3 +1,5 @@
+package session15.src;
+
 import java.util.Scanner;
 
 public class SwitchStatement {
@@ -5,6 +7,7 @@ public class SwitchStatement {
 
         Scanner scanner = new Scanner(System.in);
         String day = scanner.nextLine();
+        day = day.toUpperCase();
 
         System.out.println(Weekday.getWeekdayType(day));
     }
