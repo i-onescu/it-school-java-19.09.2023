@@ -1,0 +1,12 @@
+1. Given a list of integers, create a new list that contains only the even numbers. Use streams to achieve this.
+2. Using a list of strings, find and print the longest string using Java streams.
+3. Create a stream of numbers from 1 to 100 and use the filter operation to retain only those numbers which are prime.
+4. Given a list of strings, use streams to create a single string which is a concatenation of all strings separated by a comma.
+5. Given a list of people (a class) with attributes: first name, last name, and age; use streams to find all people who are older than 18 years.
+6. Create a stream of integers from an array and find the sum of all integers using the reduce method.
+7. Use streams to transform a list of strings into a list of their respective lengths.
+8. Given a string, use streams to count the number of vowels in it.
+9. Using streams, find the total number of characters across a list of strings excluding whitespace characters.
+
+10. Given a list of employee objects with attributes: name, department, and salary; find the department with the highest total salary.
+11. Given a list of products with attributes: name, category, and price; find the category with the highest average price.
