@@ -1,0 +1,3 @@
+Imi doresc sa aveti o simpla resursa (masini, carti, utilizatori etc...) care sa contina mai multe campuri cu validare (poate chiar obiecte in obiecte, se ofera puncte bonus),
+iar apoi pentru aceasta resursa sa faceti cate o metoda pentru fiecare HTTP verb respectand conventiile de nume (plus separare de responsabilitati pe controller si servicii).
+Voi verifica repo-urile duminica seara. Pentru cine doreste sa cerceteze mai mult, in loc sa salvati elementele intr-o lista in-memory, puteti manipula fisiere pentru "persistenta" (orice incercare este punctata corespunzator).
