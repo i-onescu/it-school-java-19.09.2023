@@ -10,8 +10,8 @@ public class UtilClass {
 
     // This will fail as there is already a bean in the context with the same name,
     // but you can pass a name to the @Bean annotation and the app startup will be possible.
-    @Bean("test")
-    public CommandLineRunner doSomething() {
-        return args -> System.out.println("Hello");
-    }
+//    @Bean("test")
+//    public CommandLineRunner doSomething() {
+//        return args -> System.out.println("Hello");
+//    }
 }
