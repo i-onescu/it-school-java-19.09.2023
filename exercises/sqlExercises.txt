@@ -1,0 +1,23 @@
+We'll have three tables: Authors, Books, and BookAuthors (as we have a many-to-many between authors and books, why?).
+
+Authors:
+    id (integer, PK not null), name (varchar not null), age (integer not null), country (varchar not null), city (varchar not null);
+
+Books:
+    id (integer, PK not null), title (varchar not null), published_year (integer not null), isbn (varchar not null unique)
+
+BookAuthors:
+    id (integer, PK not null), author_id (integer not null, FK to Authors), book_id (integer not null, FK to Books)
+
+Please insert some values in all three tables and then try to query the following:
+- Retrieve the books published in a specific year;
+- Retrieve the authors born in a specific country;
+- Update the published year of a specific book;
+- Delete a specific book and its associated author entries;
+- Find books that have the word "Database" in their title;
+- List authors who have not written any books;
+- Find the total number of books written by each author;
+- Retrieve all books and their authors;
+- Find books written by a specific author;
+- List authors who have written more than one book;
+- Retrieve books with their authors, sorted by publication year in descending order.
