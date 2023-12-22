@@ -20,16 +20,16 @@ public class BankingSystemApplication {
 		SpringApplication.run(BankingSystemApplication.class, args);
 	}
 
-	@PostConstruct
-	public void saySomething() {
+//	@PostConstruct
+//	public void saySomething() {
 //		ApplicationContext context =
 //				new AnnotationConfigApplicationContext(BankingSystemConfiguration.class);
 //		Object bankingService = context.getBean("bankingService");
 //		System.out.println(bankingService);
-		Class<BankingService> bankingServiceClass = BankingService.class;
-		Annotation[] annotations = bankingServiceClass.getAnnotations();
-		System.out.println(annotations);
-	}
+//		Class<BankingService> bankingServiceClass = BankingService.class;
+//		Annotation[] annotations = bankingServiceClass.getAnnotations();
+//		System.out.println(annotations);
+//	}
 //
 //	// This is another manner to add a bean in the Spring application context.
 //	// marking the method with @Bean annotation.
