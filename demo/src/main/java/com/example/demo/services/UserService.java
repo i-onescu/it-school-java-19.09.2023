@@ -6,12 +6,16 @@ import com.example.demo.models.dtos.UserDTO;
 import com.example.demo.models.entities.User;
 import com.example.demo.repositories.UserRepository;
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Optional;
 
 // Regular service class which performs the business logic.
 @Service
+@Slf4j
 public class UserService {
 
     // injection of repository
@@ -95,5 +99,62 @@ public class UserService {
         if (userDTO.country() != null)  {
             user.setCountry(userDTO.country());
         }
+    }
+
+    // throws marks that a method will throw a list of exceptions
+    // but it won't bother with their handling.
+    // thus, the caller have to handle them.
+    private void doSomething(Long id) throws IOException, SQLException {
+        int x = 1;
+        if (x < 1) {
+            doSomethingElse(id);
+        } else if (x == 1) {
+            throw new IOException("io");
+        } else {
+            throw new SQLException("ex");
+        }
+    }
+
+    private void tryCatch() {
+        int x = 1;
+        try {
+            if (x < 1) {
+                throw new UserNotFoundException("test");
+            } else if (x == 1) {
+                throw new IOException("io");
+            } else {
+                throw new SQLException("ex");
+            }
+            // be careful about the hierarchy levels of exceptions
+            // as the catch clauses are interpreted one by one
+            // if a higher rank exception is placed first then it will catch
+            // also the lower rank exceptions placed below leading to a compilation error.
+        } catch (IOException e) {
+            log.error(e.getMessage());
+        } catch (SQLException e) {
+            log.error(e.getMessage());
+        }
+    }
+
+    private void commonTryCatchBlocks() {
+        int x = 1;
+
+        try {
+            if (x < 1) {
+                throw new UserNotFoundException("test");
+            } else if (x == 1) {
+                throw new IOException("io");
+            } else {
+                throw new SQLException("ex");
+            }
+            // if the handling code is the same for two exceptions,
+            // then you can have a common try catch block
+        } catch (IOException | SQLException e) {
+            log.error(e.getMessage());
+        }
+    }
+
+    private void doSomethingElse(Long id) {
+        throw new UserNotFoundException("test", id);
     }
 }
