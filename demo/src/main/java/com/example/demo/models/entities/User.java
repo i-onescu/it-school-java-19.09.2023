@@ -37,7 +37,6 @@ public class User {
 
     @NotNull
     @Range(min = 18, max = 75)
-    @Transient
     private Integer age;
 
     @OneToOne(cascade = CascadeType.ALL)
