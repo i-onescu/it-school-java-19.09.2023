@@ -1,0 +1,4 @@
+1. In a bustling coffee shop, you want to ensure that there's only one cash register to handle all transactions.
+2. Imagine a pizza restaurant with a diverse menu. The chef wants the flexibility to create new pizza variations without altering the order-taking system.
+3. You are developing a stock market monitoring application for investors. Users want to receive real-time notifications whenever the price of a specific stock reaches a certain threshold.
+4. A computer assembly company allows customers to customize their PCs based on individual needs. Customers can choose the processor, RAM, storage, and other components.
