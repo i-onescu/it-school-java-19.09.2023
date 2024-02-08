@@ -5,14 +5,10 @@ import com.example.demo.exception.UserNotFoundException;
 import com.example.demo.models.dtos.ResponsePayload;
 import com.example.demo.models.dtos.UserDTO;
 import com.example.demo.services.UserService;
-import jakarta.validation.Valid;
 import jakarta.validation.ValidationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.io.IOException;
-import java.sql.SQLException;
 
 // regular rest controller accepting requests on:
 // http://localhost:8080/api/v1/user
@@ -32,7 +28,7 @@ public class UserController {
     @GetMapping("/{id}")
     public ResponseEntity<ResponsePayload> getUserById(@PathVariable("id") Long id) {
         return ResponseBuilderHelper.buildResponsePayload(userService.getUserById(id),
-                    HttpStatus.FOUND);
+                    HttpStatus.OK);
     }
 
     // PostMapping to save a user.
